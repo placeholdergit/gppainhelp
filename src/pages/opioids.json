@@ -1,0 +1,88 @@
+{
+  "opioids": [
+    {
+      "drug": "Buprenorphine patch mcg/hr - Topical",
+      "unit": "mcg",
+      "timeInHrs": 1,
+      "multiplier": 2
+    },
+    {
+      "drug": "Codeine mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 0.13
+    },
+    {
+      "drug": "Oxycodone IR mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 1.5
+    },
+    {
+      "drug": "Fentanyl mcg - Subcutaneous",
+      "unit": "mcg",
+      "timeInHrs": 24,
+      "multiplier": 0.2
+    },
+    {
+      "drug": "Fentanyl patch mcg/hr - Topical",
+      "unit": "mcg",
+      "timeInHrs": 1,
+      "multiplier": 3.6
+    },
+    {
+      "drug": "Hydromorphone CR mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 5
+    },
+    {
+      "drug": "Hydromorphone IR mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 5
+    },
+    {
+      "drug": "Hydromorphone IR mg - Subcutaneous",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 20
+    },
+    {
+      "drug": "Morphine mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 1
+    },
+    {
+      "drug": "Morphine mg - Subcutaneous",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 3
+    },
+    {
+      "drug": "Oxycodone CR mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 1.5
+    },
+    {
+      "drug": "Oxycodone IR mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 1.5
+    },
+    {
+      "drug": "Tramadol mg - Oral",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 0.1
+    },
+    {
+      "drug": "Tapentadol mg",
+      "unit": "mg",
+      "timeInHrs": 24,
+      "multiplier": 0.3
+    }
+  ]
+}

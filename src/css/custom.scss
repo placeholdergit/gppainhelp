@@ -1,0 +1,100 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #099cf2;
+  --ifm-color-primary-dark: #088cda;
+  --ifm-color-primary-darker: #0885ce;
+  --ifm-color-primary-darkest: #066da9;
+  --ifm-color-primary-light: #1da6f7;
+  --ifm-color-primary-lighter: #2aabf7;
+  --ifm-color-primary-lightest: #4eb9f8;
+  --ifm-code-font-size: 95%;
+  --ifm-card-background-color: var(--ifm-background-color);
+  --ifm-footer-background-color: var(--ifm-background-surface-color);
+  --ifm-color-info: var(--ifm-color-primary-light);
+}
+
+html[data-theme="dark"] {
+  .MuiTextField-root {
+    background-color: #ffffff17;
+    color: white;
+  }
+  .MuiInputBase-root {
+    color: white;
+  }
+  .MuiFormLabel-root {
+    color: white;
+  }
+  .MuiTypography-colorTextSecondary {
+    color: white;
+  }
+  .MuiCard-root {
+    color: white;
+    background-color: #424242;
+  }
+  // --ifm-background-color: #20232a;
+  // --ifm-background-surface-color: #121212;
+  // --ifm-color-primary: #8b9dff;
+  // --ifm-color-primary-dark: #647cff;
+  // --ifm-color-primary-darker: #506bff;
+  // --ifm-color-primary-darkest: #1539ff;
+  // --ifm-color-primary-light: #b2beff;
+  // --ifm-color-primary-lighter: #c6cfff;
+  // --ifm-color-primary-lightest: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+// modal content warning
+html.swal2-shown {
+  overflow-y: hidden
+}
+.swal2-shown .swal2-container {
+  padding: 0
+}
+
+// mui override
+a:hover.MuiCardActionArea-root {
+  text-decoration: none;
+}
+.MuiLink-underlineHover:hover {
+  text-decoration: none !important;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.card {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #eee;
+
+  html[data-theme="dark"] & {
+    border-color: transparent;
+  }
+
+  &__icon {
+    margin-bottom: 1rem;
+  }
+
+  &__header {
+    color: var(--ifm-color-primary-light);
+  }
+}

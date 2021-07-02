@@ -1,0 +1,15 @@
+.formControl {
+  width: 325px;
+}
+
+.main {
+  padding: 5rem 0;
+
+  @media screen and (max-width: 996px) {
+    padding: 2.5rem 0;
+  }
+}
+
+.fullWidth {
+  width: 100% !important
+}

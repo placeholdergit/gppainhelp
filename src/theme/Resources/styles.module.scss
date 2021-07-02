@@ -1,0 +1,26 @@
+.resources {
+  background-color: var(--ifm-background-surface-color);
+}
+
+.resource {
+  display: flex !important;
+  flex-direction: column;
+
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}
+
+.card {
+  flex-grow: 1;
+  justify-content: space-between;
+
+  &:hover {
+    border-color: var(--ifm-color-primary-light) !important;
+  }
+}
+
+.card__icon {
+  font-size: 3rem
+}
