@@ -21,9 +21,9 @@ export function CardWrapper({ href, icon, title, description }) {
       <CardActionArea component={Link} href={href}>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            <span role="img" aria-label="frown">
+            {/* <span role="img" aria-label="frown">
               {icon}
-            </span>{" "}
+            </span>{" "} */}
             {title}
           </Typography>
           {description && (
